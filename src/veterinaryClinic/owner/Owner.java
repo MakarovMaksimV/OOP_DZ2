@@ -26,6 +26,4 @@ public class Owner extends VeterynaryClinic {
         public String toString () {
         return String.format("%s ", name);
         }
-
-
 }

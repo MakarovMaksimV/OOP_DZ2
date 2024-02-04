@@ -29,6 +29,4 @@ public class Personal extends VeterynaryClinic {
     public String toString() {
         return String.format("Имя сотрудника = %s, должность = %s, специализация = %s, id = %s, номер телефона = %s",name, title, specialization, id, phoneNumber);
     }
-
-
 }

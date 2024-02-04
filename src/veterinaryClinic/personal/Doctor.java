@@ -13,25 +13,14 @@ public class Doctor extends Personal implements Diagnosis, Healing, Operation, P
     public Doctor(String specialization, String name, String title, Integer id, Integer phoneNumber) {
         super(specialization,name,title,id,phoneNumber);
     }
-
     @Override
-    public void diagnosis() {
-        System.out.println(specialization + " " + name + " ставит диагноз");
-    }
-
+    public void diagnosis() {System.out.println(specialization + " " + name + " ставит диагноз");}
     @Override
-    public void healing() {
-        System.out.println(specialization + " " + name + " лечит пациента");
-    }
-
+    public void healing() {System.out.println(specialization + " " + name + " лечит пациента");}
     @Override
     public void operation() {
         System.out.println(specialization + " " + name + " оперирует");
     }
-
     @Override
-    public void dischargeOfThePatient() {
-        System.out.println(specialization + " " + name + " выписывает пациента");
-
-    }
+    public void dischargeOfThePatient() {System.out.println(specialization + " " + name + " выписывает пациента");}
 }
